@@ -68,6 +68,27 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 1px;
+}
+
+div.campo > input {
+    background-color: aquamarine;
+    font-size: 1em;
+    width: calc(100% - 44.8px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    transform: translateY(-11px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
 form > div.campo {
     display: block;
     background-color: #5f2c82;
